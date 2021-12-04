@@ -1,0 +1,69 @@
+/* Write your CSS here */
+
+body {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #1e293b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 330px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.title {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 72px;
+  }
+}
+
+.description {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 32px;
+  }
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
